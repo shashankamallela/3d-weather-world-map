@@ -1,0 +1,50 @@
+# 3D Weather City Map 🌆☁️
+
+An interactive 3D city map of New York City with **live weather data**, built with **Next.js, Express.js, and Three.js (React Three Fiber)**.  
+Users can pan, zoom, rotate, and click on buildings to see the weather for that location.
+
+---
+
+## 🔹 Live Demo
+[View on site](https://readdy.link/preview/ed46dc21-bc1e-4934-931e-7c72d5f6125a/1916419)
+
+---
+
+## 🔹 Features
+
+- **Interactive 3D Scene**:  
+  Pan, zoom, and rotate using mouse or touch gestures.
+
+- **Building Interaction**:  
+  Click on buildings to fetch live weather data via the backend API.
+
+- **Dynamic Weather Visualization**:  
+  - Colors and heights of buildings change based on temperature.  
+  - Rain or snow effects for respective weather conditions.  
+  - Day/Night lighting based on sunrise/sunset times.
+
+- **Weather Card Overlay**:  
+  Displays city, temperature, humidity, wind, and weather condition.
+
+---
+
+## 🔹 Tech Stack
+
+- **Frontend**:  
+  - [Next.js] – React framework for page routing and server-side rendering  
+  - [React Three Fiber] – React renderer for Three.js  
+  - [Three.js] – 3D rendering engine  
+  - [Axios] – API requests
+
+- **Backend**:  
+  - [Node.js] + [Express.js](https://expressjs.com/) – REST API server  
+  - [OpenWeatherMap API] – Live weather data  
+  - NodeCache – Caching weather data for 5 minutes  
+
+- **Deployment**:  
+  - Frontend: Vercel  
+  - Backend: Local server / cloud deployable  
+
+---
+
+
